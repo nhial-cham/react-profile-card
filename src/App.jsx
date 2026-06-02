@@ -1,10 +1,13 @@
-import ProfileCard from './components/ProfileCard.jsx';
+import ProfileCard from "./components/ProfileCard"; 
     
 function App() {
     return (
         <>
         <h1>First react application!</h1>
-        <ProfileCard />
+        <ProfileCard 
+            name="Nhial Cham" 
+            role="Full-Stack Software Developer" 
+            />
         </>
     );
 }
